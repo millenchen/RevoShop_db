@@ -19,8 +19,13 @@ PostgreSQL schema dan sample data untuk RevoShop — RevoU Backend Development C
 - Nama database: `revoshop_db`
 
 ### 2. Jalankan schema
-```sql
-psql -U postgres -d revoshop_db -f schema.sql
+	psql -U postgres -d revoshop_db -f schema.sql
+
+### 3. Masukkan sample data
+	psql -U postgres -d revoshop_db -f seed.sql
+
+### 4. Jalankan queries
+	psql -U postgres -d revoshop_db -f queries.sql
 
 ## ERD
 
